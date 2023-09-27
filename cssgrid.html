@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid practice</title>
+    </head>
+    <body style="padding-bottom: 500px;">
+        <div style="display: grid;
+        grid-template-columns: 100px 50px;">
+            <div style="background-color: aqua;">
+                divisin 1
+            </div>
+            <div style="background-color: blueviolet;">
+                division 2
+                <p>division 3</p>
+            </div>
+        </div>
+
+        <div style="display: grid;
+        grid-template-columns: 150px 200px;
+        margin-top: 20px;">
+            <div style="background-color: rgb(17, 255, 25);"> 
+                150px
+                <p>para</p>
+            </div>
+            <div style="background-color: aquamarine;">200px</div>
+            <div style="background-color: bisque;">100px</div>
+            <div style="background-color: bisque;">150px</div>
+        </div>
+
+        <div style="display: grid;
+        grid-template-columns: 150px 200px 1fr 2fr;
+        margin-top: 20px;">
+            <div style="background-color: rgb(17, 255, 25);"> 
+                150px
+                <p>para</p>
+            </div>
+            <div style="background-color: aquamarine;">200px</div>
+            <div style="background-color: bisque;">1frpx</div>
+            <div style="background-color: rgb(255, 143, 6);">150px</div>
+        </div>
+
+        <div style="display: grid;
+        grid-template-columns: 150px 200px;
+        margin-top: 20px;">
+            <div style="background-color: rgb(17, 255, 25);"> 
+                150px
+                <p>para</p>
+            </div>
+            <div style="background-color: aquamarine;">200px</div>
+            <div style="background-color: bisque;">100px</div>
+            <div style="background-color: bisque;">150px</div>
+        </div>
+
+        <div style="display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 20px; column-gap: 20px; row-gap: 40px;">
+            <div style="background-color: rgb(17, 255, 25); height: 200px;"> </div>
+            <div style="background-color: aquamarine;height: 200px;">200px</div>
+            <div style="background-color: bisque;height: 200px;">1frpx</div>
+            <div style="background-color: rgb(255, 143, 6);height: 200px;">150px</div>
+            <div style="background-color: rgb(17, 255, 25); height: 200px;"> </div>
+            <div style="background-color: aquamarine;height: 200px;">200px</div>
+        </div>
+    </body>
+</html>
